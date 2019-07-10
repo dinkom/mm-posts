@@ -1,0 +1,10 @@
+@import 'gutter';
+@import 'colors';
+
+.comment-list {
+  background: $martian-lightgray;
+  border: 1px solid $martian-red;
+  color: $martian-dark;
+  margin-left: $gutter-md;
+  padding: $gutter-md;
+}

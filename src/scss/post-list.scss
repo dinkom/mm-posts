@@ -1,0 +1,25 @@
+@import 'gutter';
+@import 'colors';
+
+.post-list {
+  &__item {
+    padding: $gutter-md;
+    background: linear-gradient($martian-darkgray, $martian-lightgray);
+    border: 1px solid $martian-darkgray;
+    margin-bottom: $gutter-sm;
+    color: white;
+
+    p {
+      text-align: justify;
+    }
+  }
+
+  &__link {
+    color: white;
+
+    &:hover {
+      color: $martian-gray;
+      text-decoration: none;
+    }
+  }
+}

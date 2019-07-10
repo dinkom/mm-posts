@@ -1,0 +1,21 @@
+@import 'gutter';
+@import 'colors';
+
+body {
+  border-top: 2px solid $martian-red;
+  background: $martian-lightgray;
+  color: $martian-dark;
+}
+
+.container {
+  padding-top: $gutter-lg;
+}
+
+.btn-primary {
+  background-color: $martian-red;
+  border-color: $martian-dark;
+
+  &:hover {
+    background: $martian-dark;
+  }
+}
